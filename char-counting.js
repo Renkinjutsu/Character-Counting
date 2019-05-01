@@ -13,8 +13,7 @@ function countLetters(phrase) {
   return output;
 }
 console.log(countLetters('Finalllfffiinfiinfinallly'));
-
-  /*
+/*
   for (let i = 0; i < phrase.length; i++) {
     output[phrase[i]] = phrase[i]["count"]
   }
