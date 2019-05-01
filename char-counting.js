@@ -2,6 +2,7 @@ function countLetters(phrase) {
   let output = {}
   let lettersThatHaveAppeared = [];
   phrase = phrase.toLowerCase();
+  phrase = phrase.split(' ').join('');
   for (let i = 0; i < phrase.length; i++) {
     if (!lettersThatHaveAppeared.includes(phrase[i])) {
       output[phrase[i]] = 1
@@ -12,7 +13,7 @@ function countLetters(phrase) {
   }
   return output;
 }
-console.log(countLetters('Finalllfffiinfiinfinallly'));
+console.log(countLetters('Lighthouse in the house'));
 
   /*
   for (let i = 0; i < phrase.length; i++) {
