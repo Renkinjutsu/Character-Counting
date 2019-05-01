@@ -13,9 +13,14 @@ function countLetters(phrase) {
   }
   return output;
 }
+
 console.log(countLetters('Lighthouse in the house'));
 
   /*
+=======
+console.log(countLetters('Finalllfffiinfiinfinallly'));
+/*
+>>>>>>> ee19e6a58dd7a82e5658f1e014747855b1259e2d
   for (let i = 0; i < phrase.length; i++) {
     output[phrase[i]] = phrase[i]["count"]
   }
